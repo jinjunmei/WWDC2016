@@ -1,0 +1,926 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0313713A5BFACE26353EE7579B8377F2 /* Pods-NewAutoLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0127BF1220CE31931FB590004C8CAECB /* Pods-NewAutoLayout-dummy.m */; };
+		15914EC9EBCBDB425ABA66413F9213E4 /* FDStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AE60506C914CD415E76509F6463BD3 /* FDStackView.m */; };
+		16B3512D80065B24F5E93BE096AFA2A4 /* FDLayoutSpacer.m in Sources */ = {isa = PBXBuildFile; fileRef = 172D2E15992B861D669C53BE5D6C40BE /* FDLayoutSpacer.m */; };
+		1C44DAF4B348F9379C202FA9CBB43136 /* FDStackViewExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F011E293064337B980215D73CBAB128 /* FDStackViewExtensions.m */; };
+		27CDB9F052D9D80AF28F15050F8F02CE /* FDStackViewAlignmentLayoutArrangement.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AE40AF4984E38325CB962DB5CF2B28 /* FDStackViewAlignmentLayoutArrangement.m */; };
+		2AB39D0F2034E588F08954F6C1E4AD5F /* UITableView+FDKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB37D9EC1E81662B440D4A32393B0D1 /* UITableView+FDKeyedHeightCache.m */; };
+		2DC3CC75279F1F1716A902ACD5821663 /* UITableView+FDIndexPathHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D5A4140097EA23645522FE2F6FB12A56 /* UITableView+FDIndexPathHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ED3576255BCC554A8515AC77402F5A8 /* UITableView+FDIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 053A3F3AD416E7A3E948F3B87097487A /* UITableView+FDIndexPathHeightCache.m */; };
+		3273FF8C54BDBD39C08796BAE1BCB9D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		37731F19046EDF8A665E079D565267A9 /* FDStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 203E314786AAC52BE207DC08C0AC6D3E /* FDStackView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A59B16F731683537F498CCE8F8A6278 /* FDStackView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C27EBE5246F4A1B0A0F41E083B91AF /* FDStackView-dummy.m */; };
+		48B718D2770E044AD8163AAF4ACE4EFE /* FDStackViewDistributionLayoutArrangement.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF40EAA9EF1D0E9B1C859453C798090 /* FDStackViewDistributionLayoutArrangement.m */; };
+		5013B7F0973FD87810775CBF30DA2B47 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E56D18FB0EAB4D198DE6075C2BDAA8 /* UITableView+FDTemplateLayoutCellDebug.m */; };
+		513D6CD6A756B1DB1056560251BDFD07 /* FDStackViewLayoutArrangement.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F6D3400FC096C720B9A6FC23CE8B238 /* FDStackViewLayoutArrangement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		578ECF41FB4383FD7DDEA3114E86FFA7 /* FDLayoutSpacer.h in Headers */ = {isa = PBXBuildFile; fileRef = 266BD6FD12EB6CA3934A18959C4C07AA /* FDLayoutSpacer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F2C327A34B0E32B9E7BDF0723785044 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6E5F5D621B8E58C702885C4C9E106BB5 /* FDStackViewLayoutArrangement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE34BCDEF55E41D743CF78DAA87D96D /* FDStackViewLayoutArrangement.m */; };
+		723766C5CDA6A96B66A6F350F3DC2101 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		785B00F6F475EBAAEF3DEE9BE35D3ACF /* Pods-NewAutoLayoutTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8206CD8C7B8DF863FE3F84FC68F4774D /* Pods-NewAutoLayoutTests-dummy.m */; };
+		9638C5CABEFD3690DF4AA16257EB4200 /* FDGapLayoutGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B312E2419B96995EEBB1D60772D3FD7 /* FDGapLayoutGuide.m */; };
+		9D49B5E0EC3C843CC9BDABF9D5E9511F /* FDStackViewExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 38D9742A44424C39B53E221523AD156C /* FDStackViewExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EAD692249CCD7E46FA2C225CB80801A /* UITableView+FDTemplateLayoutCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24713E7942B46C24C9B779FA39ACADDF /* UITableView+FDTemplateLayoutCell-dummy.m */; };
+		AA1C66B4B002041E127E548B0A096C1A /* FDGapLayoutGuide.h in Headers */ = {isa = PBXBuildFile; fileRef = A155EA0256A18B6DF6EC3BEA4177B441 /* FDGapLayoutGuide.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B52C26A1B28B59A26C8FDF8D11FE76A1 /* UITableView+FDTemplateLayoutCellDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = C7988D57069D22DACEFFBE3AE59F00BF /* UITableView+FDTemplateLayoutCellDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7EC81155014F01999F914F645EFD0A9 /* Pods-NewAutoLayoutUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9B7C1DBEDA8C86CF4319AE51236CD5 /* Pods-NewAutoLayoutUITests-dummy.m */; };
+		C5517AE222F57A91C5AE9344B075A927 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D61B9C5C44A81890E4ADEFCCC172E57D /* FDStackViewDistributionLayoutArrangement.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D69C33C89124D7B439CDD469629F361 /* FDStackViewDistributionLayoutArrangement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7DC0B70A12C2F5BE1643F844B084D67 /* FDStackViewAlignmentLayoutArrangement.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F39F9CA9F3797C738FA1499CB7F0C0C /* FDStackViewAlignmentLayoutArrangement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2C46977B213DB74BB0AB0AC9A5050D4 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36559E3FB3B5BABEA551AF4532AE3101 /* UITableView+FDTemplateLayoutCell.m */; };
+		F3CCDCDF6625DDC6D3035F21AA197182 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		FA8A92C91F7C263B94D288DE849AD111 /* UITableView+FDTemplateLayoutCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 666E7E409DFC079C8570D9877158C8ED /* UITableView+FDTemplateLayoutCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAF260A8E01E4530F4BAF5B87B43690D /* FDTransformLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA2B68AD253C95F4DD8981028E921BC /* FDTransformLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB6476C9CC9948D31117FABF68997023 /* FDTransformLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 248AE36524AC8EB44554226D1EB8FE26 /* FDTransformLayer.m */; };
+		FCB923CC82DD6A0E440C950B5890A1D5 /* UITableView+FDKeyedHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4827963C1A7D889018BBB638CD53E6CB /* UITableView+FDKeyedHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2690C85EC251D48B8F4F8108E313F829 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3088FA6C9EC8F3B2890EBC458FBF697;
+			remoteInfo = "UITableView+FDTemplateLayoutCell";
+		};
+		EBBEF022B810C991545C58B85475A220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 102D428D5075F9B4BF6469BEC619ED69;
+			remoteInfo = FDStackView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0127BF1220CE31931FB590004C8CAECB /* Pods-NewAutoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewAutoLayout-dummy.m"; sourceTree = "<group>"; };
+		03E2719206C2321F605DAE22BC90C035 /* Pods-NewAutoLayoutUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewAutoLayoutUITests.release.xcconfig"; sourceTree = "<group>"; };
+		04BF847E38E6C8D04D7894784F29FE18 /* Pods-NewAutoLayoutTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewAutoLayoutTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		053A3F3AD416E7A3E948F3B87097487A /* UITableView+FDIndexPathHeightCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDIndexPathHeightCache.m"; path = "Classes/UITableView+FDIndexPathHeightCache.m"; sourceTree = "<group>"; };
+		08BE57313620EEE27137F659AC941B7B /* Pods-NewAutoLayout-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NewAutoLayout-resources.sh"; sourceTree = "<group>"; };
+		12AE60506C914CD415E76509F6463BD3 /* FDStackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FDStackView.m; path = FDStackView/FDStackView.m; sourceTree = "<group>"; };
+		13E56D18FB0EAB4D198DE6075C2BDAA8 /* UITableView+FDTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDTemplateLayoutCellDebug.m"; path = "Classes/UITableView+FDTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
+		172D2E15992B861D669C53BE5D6C40BE /* FDLayoutSpacer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FDLayoutSpacer.m; path = FDStackView/FDLayoutSpacer.m; sourceTree = "<group>"; };
+		19C27EBE5246F4A1B0A0F41E083B91AF /* FDStackView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FDStackView-dummy.m"; sourceTree = "<group>"; };
+		1FF7B42C0B1CEEB8ED08F36932539E8A /* UITableView+FDTemplateLayoutCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UITableView+FDTemplateLayoutCell.xcconfig"; sourceTree = "<group>"; };
+		203E314786AAC52BE207DC08C0AC6D3E /* FDStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FDStackView.h; path = FDStackView/FDStackView.h; sourceTree = "<group>"; };
+		24713E7942B46C24C9B779FA39ACADDF /* UITableView+FDTemplateLayoutCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell-dummy.m"; sourceTree = "<group>"; };
+		248AE36524AC8EB44554226D1EB8FE26 /* FDTransformLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FDTransformLayer.m; path = FDStackView/FDTransformLayer.m; sourceTree = "<group>"; };
+		266BD6FD12EB6CA3934A18959C4C07AA /* FDLayoutSpacer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FDLayoutSpacer.h; path = FDStackView/FDLayoutSpacer.h; sourceTree = "<group>"; };
+		2D69C33C89124D7B439CDD469629F361 /* FDStackViewDistributionLayoutArrangement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FDStackViewDistributionLayoutArrangement.h; path = FDStackView/FDStackViewDistributionLayoutArrangement.h; sourceTree = "<group>"; };
+		2D9B7C1DBEDA8C86CF4319AE51236CD5 /* Pods-NewAutoLayoutUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewAutoLayoutUITests-dummy.m"; sourceTree = "<group>"; };
+		2F6D3400FC096C720B9A6FC23CE8B238 /* FDStackViewLayoutArrangement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FDStackViewLayoutArrangement.h; path = FDStackView/FDStackViewLayoutArrangement.h; sourceTree = "<group>"; };
+		36559E3FB3B5BABEA551AF4532AE3101 /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDTemplateLayoutCell.m"; path = "Classes/UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
+		36E745D921E85FAE07CF4760BF31ED5A /* libPods-NewAutoLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NewAutoLayout.a"; path = "libPods-NewAutoLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38D9742A44424C39B53E221523AD156C /* FDStackViewExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FDStackViewExtensions.h; path = FDStackView/FDStackViewExtensions.h; sourceTree = "<group>"; };
+		3CE34BCDEF55E41D743CF78DAA87D96D /* FDStackViewLayoutArrangement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FDStackViewLayoutArrangement.m; path = FDStackView/FDStackViewLayoutArrangement.m; sourceTree = "<group>"; };
+		42858B9D72334D022EC7B64C98BAE6A9 /* Pods-NewAutoLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewAutoLayout.debug.xcconfig"; sourceTree = "<group>"; };
+		4827963C1A7D889018BBB638CD53E6CB /* UITableView+FDKeyedHeightCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDKeyedHeightCache.h"; path = "Classes/UITableView+FDKeyedHeightCache.h"; sourceTree = "<group>"; };
+		4C905087DAD034273DEF8CD3DAE92E89 /* Pods-NewAutoLayout-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewAutoLayout-acknowledgements.plist"; sourceTree = "<group>"; };
+		4CEF30A8FCD184E21A308030F83CEAC2 /* Pods-NewAutoLayoutTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewAutoLayoutTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4DF640D5E97ECB58C3E9C6F51042A6AE /* FDStackView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FDStackView.xcconfig; sourceTree = "<group>"; };
+		4F011E293064337B980215D73CBAB128 /* FDStackViewExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FDStackViewExtensions.m; path = FDStackView/FDStackViewExtensions.m; sourceTree = "<group>"; };
+		5BC6699F890AEB7DED49EA9F06A2DC02 /* UITableView+FDTemplateLayoutCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell-prefix.pch"; sourceTree = "<group>"; };
+		5E57D4BB9B2BFE5BDD8F22ACCD08256B /* Pods-NewAutoLayoutTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NewAutoLayoutTests-frameworks.sh"; sourceTree = "<group>"; };
+		666E7E409DFC079C8570D9877158C8ED /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDTemplateLayoutCell.h"; path = "Classes/UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		6F39F9CA9F3797C738FA1499CB7F0C0C /* FDStackViewAlignmentLayoutArrangement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FDStackViewAlignmentLayoutArrangement.h; path = FDStackView/FDStackViewAlignmentLayoutArrangement.h; sourceTree = "<group>"; };
+		71AE40AF4984E38325CB962DB5CF2B28 /* FDStackViewAlignmentLayoutArrangement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FDStackViewAlignmentLayoutArrangement.m; path = FDStackView/FDStackViewAlignmentLayoutArrangement.m; sourceTree = "<group>"; };
+		7AED9B329E14CC291A3763055D815584 /* Pods-NewAutoLayout-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NewAutoLayout-frameworks.sh"; sourceTree = "<group>"; };
+		7C3E011E7B0DC7F22660E013092CDCC0 /* libPods-NewAutoLayoutUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NewAutoLayoutUITests.a"; path = "libPods-NewAutoLayoutUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DAEA0480A9D4A07A5EF471C57544470 /* Pods-NewAutoLayout-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewAutoLayout-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7DB37D9EC1E81662B440D4A32393B0D1 /* UITableView+FDKeyedHeightCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDKeyedHeightCache.m"; path = "Classes/UITableView+FDKeyedHeightCache.m"; sourceTree = "<group>"; };
+		8206CD8C7B8DF863FE3F84FC68F4774D /* Pods-NewAutoLayoutTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewAutoLayoutTests-dummy.m"; sourceTree = "<group>"; };
+		87E9C2B025FE74C9CCE4699905243C6B /* Pods-NewAutoLayoutTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NewAutoLayoutTests-resources.sh"; sourceTree = "<group>"; };
+		8CA2B68AD253C95F4DD8981028E921BC /* FDTransformLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FDTransformLayer.h; path = FDStackView/FDTransformLayer.h; sourceTree = "<group>"; };
+		8EE282FAD59E8D2B9D31DCD4106B567A /* Pods-NewAutoLayoutTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewAutoLayoutTests.debug.xcconfig"; sourceTree = "<group>"; };
+		91BF44B96B9297009114CE2435C00EF4 /* Pods-NewAutoLayoutUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NewAutoLayoutUITests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B312E2419B96995EEBB1D60772D3FD7 /* FDGapLayoutGuide.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FDGapLayoutGuide.m; path = FDStackView/FDGapLayoutGuide.m; sourceTree = "<group>"; };
+		9EF40EAA9EF1D0E9B1C859453C798090 /* FDStackViewDistributionLayoutArrangement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FDStackViewDistributionLayoutArrangement.m; path = FDStackView/FDStackViewDistributionLayoutArrangement.m; sourceTree = "<group>"; };
+		A05AA77FC88994B5210196B2141B4163 /* Pods-NewAutoLayoutUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewAutoLayoutUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A155EA0256A18B6DF6EC3BEA4177B441 /* FDGapLayoutGuide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FDGapLayoutGuide.h; path = FDStackView/FDGapLayoutGuide.h; sourceTree = "<group>"; };
+		A906E47634D845D6F351E4A8DF93BAC9 /* Pods-NewAutoLayoutUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewAutoLayoutUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA0562367A76DC6FB2DB57D0F5953F2B /* FDStackView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDStackView-prefix.pch"; sourceTree = "<group>"; };
+		B72E6D6D2BBB34FB358C9CBD6D91C9E3 /* libPods-NewAutoLayoutTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NewAutoLayoutTests.a"; path = "libPods-NewAutoLayoutTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7988D57069D22DACEFFBE3AE59F00BF /* UITableView+FDTemplateLayoutCellDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDTemplateLayoutCellDebug.h"; path = "Classes/UITableView+FDTemplateLayoutCellDebug.h"; sourceTree = "<group>"; };
+		CB76DF8E53B607CC9175D7DC99BCAD8F /* Pods-NewAutoLayoutUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NewAutoLayoutUITests-resources.sh"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D5A4140097EA23645522FE2F6FB12A56 /* UITableView+FDIndexPathHeightCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDIndexPathHeightCache.h"; path = "Classes/UITableView+FDIndexPathHeightCache.h"; sourceTree = "<group>"; };
+		D9A331C98680515F09F4ED8136079924 /* libUITableView+FDTemplateLayoutCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libUITableView+FDTemplateLayoutCell.a"; path = "libUITableView+FDTemplateLayoutCell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3443A02C2B06E57C75D8AB1E65D3C2D /* Pods-NewAutoLayoutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewAutoLayoutTests.release.xcconfig"; sourceTree = "<group>"; };
+		F434BA076A9E998669AE4264810E943F /* Pods-NewAutoLayoutUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewAutoLayoutUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F78067BCB25DFD9C3D890B584FCDA148 /* Pods-NewAutoLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewAutoLayout.release.xcconfig"; sourceTree = "<group>"; };
+		F8ABF14CFECF6BDFEF660C5E86BCA636 /* libFDStackView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFDStackView.a; path = libFDStackView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1551EC6C9ED0ED8ADBD3CF1958E573FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723766C5CDA6A96B66A6F350F3DC2101 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CCC7A667A13CB8729C01D44EAFD3478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3273FF8C54BDBD39C08796BAE1BCB9D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4442A298B97393CDFC9B5AB08CD730D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2C327A34B0E32B9E7BDF0723785044 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56459F469969FE4F6C497E84175895E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CCDCDF6625DDC6D3035F21AA197182 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A90D4CBBBA3B3208907A07489296D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5517AE222F57A91C5AE9344B075A927 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EBA9AC3D44E6E6A1F4BA8F354055575 /* FDStackView */ = {
+			isa = PBXGroup;
+			children = (
+				A155EA0256A18B6DF6EC3BEA4177B441 /* FDGapLayoutGuide.h */,
+				9B312E2419B96995EEBB1D60772D3FD7 /* FDGapLayoutGuide.m */,
+				266BD6FD12EB6CA3934A18959C4C07AA /* FDLayoutSpacer.h */,
+				172D2E15992B861D669C53BE5D6C40BE /* FDLayoutSpacer.m */,
+				203E314786AAC52BE207DC08C0AC6D3E /* FDStackView.h */,
+				12AE60506C914CD415E76509F6463BD3 /* FDStackView.m */,
+				6F39F9CA9F3797C738FA1499CB7F0C0C /* FDStackViewAlignmentLayoutArrangement.h */,
+				71AE40AF4984E38325CB962DB5CF2B28 /* FDStackViewAlignmentLayoutArrangement.m */,
+				2D69C33C89124D7B439CDD469629F361 /* FDStackViewDistributionLayoutArrangement.h */,
+				9EF40EAA9EF1D0E9B1C859453C798090 /* FDStackViewDistributionLayoutArrangement.m */,
+				38D9742A44424C39B53E221523AD156C /* FDStackViewExtensions.h */,
+				4F011E293064337B980215D73CBAB128 /* FDStackViewExtensions.m */,
+				2F6D3400FC096C720B9A6FC23CE8B238 /* FDStackViewLayoutArrangement.h */,
+				3CE34BCDEF55E41D743CF78DAA87D96D /* FDStackViewLayoutArrangement.m */,
+				8CA2B68AD253C95F4DD8981028E921BC /* FDTransformLayer.h */,
+				248AE36524AC8EB44554226D1EB8FE26 /* FDTransformLayer.m */,
+				70E07FFF53EFDE273B5C2F35F7930ABD /* Support Files */,
+			);
+			name = FDStackView;
+			path = FDStackView;
+			sourceTree = "<group>";
+		};
+		32279458270611407C0A14EC1E12BEAB /* UITableView+FDTemplateLayoutCell */ = {
+			isa = PBXGroup;
+			children = (
+				D5A4140097EA23645522FE2F6FB12A56 /* UITableView+FDIndexPathHeightCache.h */,
+				053A3F3AD416E7A3E948F3B87097487A /* UITableView+FDIndexPathHeightCache.m */,
+				4827963C1A7D889018BBB638CD53E6CB /* UITableView+FDKeyedHeightCache.h */,
+				7DB37D9EC1E81662B440D4A32393B0D1 /* UITableView+FDKeyedHeightCache.m */,
+				666E7E409DFC079C8570D9877158C8ED /* UITableView+FDTemplateLayoutCell.h */,
+				36559E3FB3B5BABEA551AF4532AE3101 /* UITableView+FDTemplateLayoutCell.m */,
+				C7988D57069D22DACEFFBE3AE59F00BF /* UITableView+FDTemplateLayoutCellDebug.h */,
+				13E56D18FB0EAB4D198DE6075C2BDAA8 /* UITableView+FDTemplateLayoutCellDebug.m */,
+				CFE9FC5EC8E2B6C6FAE1A7B669592AAD /* Support Files */,
+			);
+			name = "UITableView+FDTemplateLayoutCell";
+			path = "UITableView+FDTemplateLayoutCell";
+			sourceTree = "<group>";
+		};
+		37C3FEA49A2623DD6CEA49E423E94D27 /* Pods-NewAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				7DAEA0480A9D4A07A5EF471C57544470 /* Pods-NewAutoLayout-acknowledgements.markdown */,
+				4C905087DAD034273DEF8CD3DAE92E89 /* Pods-NewAutoLayout-acknowledgements.plist */,
+				0127BF1220CE31931FB590004C8CAECB /* Pods-NewAutoLayout-dummy.m */,
+				7AED9B329E14CC291A3763055D815584 /* Pods-NewAutoLayout-frameworks.sh */,
+				08BE57313620EEE27137F659AC941B7B /* Pods-NewAutoLayout-resources.sh */,
+				42858B9D72334D022EC7B64C98BAE6A9 /* Pods-NewAutoLayout.debug.xcconfig */,
+				F78067BCB25DFD9C3D890B584FCDA148 /* Pods-NewAutoLayout.release.xcconfig */,
+			);
+			name = "Pods-NewAutoLayout";
+			path = "Target Support Files/Pods-NewAutoLayout";
+			sourceTree = "<group>";
+		};
+		5E7BB70263DA32B4F29D583385CD9966 /* Pods-NewAutoLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				04BF847E38E6C8D04D7894784F29FE18 /* Pods-NewAutoLayoutTests-acknowledgements.markdown */,
+				4CEF30A8FCD184E21A308030F83CEAC2 /* Pods-NewAutoLayoutTests-acknowledgements.plist */,
+				8206CD8C7B8DF863FE3F84FC68F4774D /* Pods-NewAutoLayoutTests-dummy.m */,
+				5E57D4BB9B2BFE5BDD8F22ACCD08256B /* Pods-NewAutoLayoutTests-frameworks.sh */,
+				87E9C2B025FE74C9CCE4699905243C6B /* Pods-NewAutoLayoutTests-resources.sh */,
+				8EE282FAD59E8D2B9D31DCD4106B567A /* Pods-NewAutoLayoutTests.debug.xcconfig */,
+				E3443A02C2B06E57C75D8AB1E65D3C2D /* Pods-NewAutoLayoutTests.release.xcconfig */,
+			);
+			name = "Pods-NewAutoLayoutTests";
+			path = "Target Support Files/Pods-NewAutoLayoutTests";
+			sourceTree = "<group>";
+		};
+		70E07FFF53EFDE273B5C2F35F7930ABD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DF640D5E97ECB58C3E9C6F51042A6AE /* FDStackView.xcconfig */,
+				19C27EBE5246F4A1B0A0F41E083B91AF /* FDStackView-dummy.m */,
+				AA0562367A76DC6FB2DB57D0F5953F2B /* FDStackView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FDStackView";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				AC59B32641DCF54E21F062CC437B2CB2 /* Pods */,
+				BCA91A7240AA96594A51C2870337D100 /* Products */,
+				9DFCF727E0C9107B8107CEB2BD800C58 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9DFCF727E0C9107B8107CEB2BD800C58 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37C3FEA49A2623DD6CEA49E423E94D27 /* Pods-NewAutoLayout */,
+				5E7BB70263DA32B4F29D583385CD9966 /* Pods-NewAutoLayoutTests */,
+				C455183612A816B0A17A6B2CC3B3C3EC /* Pods-NewAutoLayoutUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AC59B32641DCF54E21F062CC437B2CB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EBA9AC3D44E6E6A1F4BA8F354055575 /* FDStackView */,
+				32279458270611407C0A14EC1E12BEAB /* UITableView+FDTemplateLayoutCell */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCA91A7240AA96594A51C2870337D100 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8ABF14CFECF6BDFEF660C5E86BCA636 /* libFDStackView.a */,
+				36E745D921E85FAE07CF4760BF31ED5A /* libPods-NewAutoLayout.a */,
+				B72E6D6D2BBB34FB358C9CBD6D91C9E3 /* libPods-NewAutoLayoutTests.a */,
+				7C3E011E7B0DC7F22660E013092CDCC0 /* libPods-NewAutoLayoutUITests.a */,
+				D9A331C98680515F09F4ED8136079924 /* libUITableView+FDTemplateLayoutCell.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C455183612A816B0A17A6B2CC3B3C3EC /* Pods-NewAutoLayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F434BA076A9E998669AE4264810E943F /* Pods-NewAutoLayoutUITests-acknowledgements.markdown */,
+				A05AA77FC88994B5210196B2141B4163 /* Pods-NewAutoLayoutUITests-acknowledgements.plist */,
+				2D9B7C1DBEDA8C86CF4319AE51236CD5 /* Pods-NewAutoLayoutUITests-dummy.m */,
+				91BF44B96B9297009114CE2435C00EF4 /* Pods-NewAutoLayoutUITests-frameworks.sh */,
+				CB76DF8E53B607CC9175D7DC99BCAD8F /* Pods-NewAutoLayoutUITests-resources.sh */,
+				A906E47634D845D6F351E4A8DF93BAC9 /* Pods-NewAutoLayoutUITests.debug.xcconfig */,
+				03E2719206C2321F605DAE22BC90C035 /* Pods-NewAutoLayoutUITests.release.xcconfig */,
+			);
+			name = "Pods-NewAutoLayoutUITests";
+			path = "Target Support Files/Pods-NewAutoLayoutUITests";
+			sourceTree = "<group>";
+		};
+		CFE9FC5EC8E2B6C6FAE1A7B669592AAD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FF7B42C0B1CEEB8ED08F36932539E8A /* UITableView+FDTemplateLayoutCell.xcconfig */,
+				24713E7942B46C24C9B779FA39ACADDF /* UITableView+FDTemplateLayoutCell-dummy.m */,
+				5BC6699F890AEB7DED49EA9F06A2DC02 /* UITableView+FDTemplateLayoutCell-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UITableView+FDTemplateLayoutCell";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7CFFF772E1A3D33D7482463DF660C5B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC3CC75279F1F1716A902ACD5821663 /* UITableView+FDIndexPathHeightCache.h in Headers */,
+				FCB923CC82DD6A0E440C950B5890A1D5 /* UITableView+FDKeyedHeightCache.h in Headers */,
+				FA8A92C91F7C263B94D288DE849AD111 /* UITableView+FDTemplateLayoutCell.h in Headers */,
+				B52C26A1B28B59A26C8FDF8D11FE76A1 /* UITableView+FDTemplateLayoutCellDebug.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF59FF6DE706AB3B5B81A22E1E95B182 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1C66B4B002041E127E548B0A096C1A /* FDGapLayoutGuide.h in Headers */,
+				578ECF41FB4383FD7DDEA3114E86FFA7 /* FDLayoutSpacer.h in Headers */,
+				37731F19046EDF8A665E079D565267A9 /* FDStackView.h in Headers */,
+				D7DC0B70A12C2F5BE1643F844B084D67 /* FDStackViewAlignmentLayoutArrangement.h in Headers */,
+				D61B9C5C44A81890E4ADEFCCC172E57D /* FDStackViewDistributionLayoutArrangement.h in Headers */,
+				9D49B5E0EC3C843CC9BDABF9D5E9511F /* FDStackViewExtensions.h in Headers */,
+				513D6CD6A756B1DB1056560251BDFD07 /* FDStackViewLayoutArrangement.h in Headers */,
+				FAF260A8E01E4530F4BAF5B87B43690D /* FDTransformLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B37447DF6DBEDB6786E8B433CA61151 /* Pods-NewAutoLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDA7C0D16D67EB42BE3263533798FA0 /* Build configuration list for PBXNativeTarget "Pods-NewAutoLayoutTests" */;
+			buildPhases = (
+				E152A8AE0CD4631C068512C9FAAEB214 /* Sources */,
+				3CCC7A667A13CB8729C01D44EAFD3478 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NewAutoLayoutTests";
+			productName = "Pods-NewAutoLayoutTests";
+			productReference = B72E6D6D2BBB34FB358C9CBD6D91C9E3 /* libPods-NewAutoLayoutTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		102D428D5075F9B4BF6469BEC619ED69 /* FDStackView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C11671B7909FA08A3259FE78CDDE4202 /* Build configuration list for PBXNativeTarget "FDStackView" */;
+			buildPhases = (
+				3BD070C28A8930C8EA7DDD6B8A62DE7F /* Sources */,
+				8A90D4CBBBA3B3208907A07489296D2F /* Frameworks */,
+				DF59FF6DE706AB3B5B81A22E1E95B182 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDStackView;
+			productName = FDStackView;
+			productReference = F8ABF14CFECF6BDFEF660C5E86BCA636 /* libFDStackView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A136E9301AABAA3FA856985C6A2BC21F /* Pods-NewAutoLayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E71E71A121AF64F22A2478C71A096B /* Build configuration list for PBXNativeTarget "Pods-NewAutoLayoutUITests" */;
+			buildPhases = (
+				0B361F4EC98609720704507E965959FD /* Sources */,
+				4442A298B97393CDFC9B5AB08CD730D2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NewAutoLayoutUITests";
+			productName = "Pods-NewAutoLayoutUITests";
+			productReference = 7C3E011E7B0DC7F22660E013092CDCC0 /* libPods-NewAutoLayoutUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A3088FA6C9EC8F3B2890EBC458FBF697 /* UITableView+FDTemplateLayoutCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA20ECE39C89DAEC1DE9F8069226187F /* Build configuration list for PBXNativeTarget "UITableView+FDTemplateLayoutCell" */;
+			buildPhases = (
+				D2166AE121DE214F2658C0BA597F5BB4 /* Sources */,
+				1551EC6C9ED0ED8ADBD3CF1958E573FF /* Frameworks */,
+				7CFFF772E1A3D33D7482463DF660C5B1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITableView+FDTemplateLayoutCell";
+			productName = "UITableView+FDTemplateLayoutCell";
+			productReference = D9A331C98680515F09F4ED8136079924 /* libUITableView+FDTemplateLayoutCell.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FE4586ECAC6DBCAEA748557216AA8668 /* Pods-NewAutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9196C568896234256B34A1FFB55F2501 /* Build configuration list for PBXNativeTarget "Pods-NewAutoLayout" */;
+			buildPhases = (
+				8F84F50B9CAF5542093FD5A167955938 /* Sources */,
+				56459F469969FE4F6C497E84175895E7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12007B908D01674DD6FF103108C2E423 /* PBXTargetDependency */,
+				72CC3E9BE5F5956BCA6869964F68F2A0 /* PBXTargetDependency */,
+			);
+			name = "Pods-NewAutoLayout";
+			productName = "Pods-NewAutoLayout";
+			productReference = 36E745D921E85FAE07CF4760BF31ED5A /* libPods-NewAutoLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BCA91A7240AA96594A51C2870337D100 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				102D428D5075F9B4BF6469BEC619ED69 /* FDStackView */,
+				FE4586ECAC6DBCAEA748557216AA8668 /* Pods-NewAutoLayout */,
+				0B37447DF6DBEDB6786E8B433CA61151 /* Pods-NewAutoLayoutTests */,
+				A136E9301AABAA3FA856985C6A2BC21F /* Pods-NewAutoLayoutUITests */,
+				A3088FA6C9EC8F3B2890EBC458FBF697 /* UITableView+FDTemplateLayoutCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B361F4EC98609720704507E965959FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EC81155014F01999F914F645EFD0A9 /* Pods-NewAutoLayoutUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD070C28A8930C8EA7DDD6B8A62DE7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9638C5CABEFD3690DF4AA16257EB4200 /* FDGapLayoutGuide.m in Sources */,
+				16B3512D80065B24F5E93BE096AFA2A4 /* FDLayoutSpacer.m in Sources */,
+				3A59B16F731683537F498CCE8F8A6278 /* FDStackView-dummy.m in Sources */,
+				15914EC9EBCBDB425ABA66413F9213E4 /* FDStackView.m in Sources */,
+				27CDB9F052D9D80AF28F15050F8F02CE /* FDStackViewAlignmentLayoutArrangement.m in Sources */,
+				48B718D2770E044AD8163AAF4ACE4EFE /* FDStackViewDistributionLayoutArrangement.m in Sources */,
+				1C44DAF4B348F9379C202FA9CBB43136 /* FDStackViewExtensions.m in Sources */,
+				6E5F5D621B8E58C702885C4C9E106BB5 /* FDStackViewLayoutArrangement.m in Sources */,
+				FB6476C9CC9948D31117FABF68997023 /* FDTransformLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F84F50B9CAF5542093FD5A167955938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0313713A5BFACE26353EE7579B8377F2 /* Pods-NewAutoLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2166AE121DE214F2658C0BA597F5BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED3576255BCC554A8515AC77402F5A8 /* UITableView+FDIndexPathHeightCache.m in Sources */,
+				2AB39D0F2034E588F08954F6C1E4AD5F /* UITableView+FDKeyedHeightCache.m in Sources */,
+				9EAD692249CCD7E46FA2C225CB80801A /* UITableView+FDTemplateLayoutCell-dummy.m in Sources */,
+				F2C46977B213DB74BB0AB0AC9A5050D4 /* UITableView+FDTemplateLayoutCell.m in Sources */,
+				5013B7F0973FD87810775CBF30DA2B47 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E152A8AE0CD4631C068512C9FAAEB214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785B00F6F475EBAAEF3DEE9BE35D3ACF /* Pods-NewAutoLayoutTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12007B908D01674DD6FF103108C2E423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FDStackView;
+			target = 102D428D5075F9B4BF6469BEC619ED69 /* FDStackView */;
+			targetProxy = EBBEF022B810C991545C58B85475A220 /* PBXContainerItemProxy */;
+		};
+		72CC3E9BE5F5956BCA6869964F68F2A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UITableView+FDTemplateLayoutCell";
+			target = A3088FA6C9EC8F3B2890EBC458FBF697 /* UITableView+FDTemplateLayoutCell */;
+			targetProxy = 2690C85EC251D48B8F4F8108E313F829 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		05F4B13FEB5E97DCDD0C825B19D8A4DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FF7B42C0B1CEEB8ED08F36932539E8A /* UITableView+FDTemplateLayoutCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		20CB9A7D486E7B40E4914555EB216FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F78067BCB25DFD9C3D890B584FCDA148 /* Pods-NewAutoLayout.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		36F5EBA563994CD0425B619F4F652961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DF640D5E97ECB58C3E9C6F51042A6AE /* FDStackView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FDStackView/FDStackView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F58718B61D04759FD8F919D304A7ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42858B9D72334D022EC7B64C98BAE6A9 /* Pods-NewAutoLayout.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8418583A8F71E02F8E245D945BBE340E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EE282FAD59E8D2B9D31DCD4106B567A /* Pods-NewAutoLayoutTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		93CFF92FD4898208818FA7F062D424AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3443A02C2B06E57C75D8AB1E65D3C2D /* Pods-NewAutoLayoutTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		963D0D40A716653745F5F26527D69E7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A906E47634D845D6F351E4A8DF93BAC9 /* Pods-NewAutoLayoutUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CD9FC215D890813A0B03806CC74108BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FF7B42C0B1CEEB8ED08F36932539E8A /* UITableView+FDTemplateLayoutCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DB27479CF369A2902B2AA87DD6A36CB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DF640D5E97ECB58C3E9C6F51042A6AE /* FDStackView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FDStackView/FDStackView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FCC95722C1CE9F63844910ADEACDD7CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E2719206C2321F605DAE22BC90C035 /* Pods-NewAutoLayoutUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E71E71A121AF64F22A2478C71A096B /* Build configuration list for PBXNativeTarget "Pods-NewAutoLayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963D0D40A716653745F5F26527D69E7F /* Debug */,
+				FCC95722C1CE9F63844910ADEACDD7CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9196C568896234256B34A1FFB55F2501 /* Build configuration list for PBXNativeTarget "Pods-NewAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F58718B61D04759FD8F919D304A7ACE /* Debug */,
+				20CB9A7D486E7B40E4914555EB216FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFDA7C0D16D67EB42BE3263533798FA0 /* Build configuration list for PBXNativeTarget "Pods-NewAutoLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8418583A8F71E02F8E245D945BBE340E /* Debug */,
+				93CFF92FD4898208818FA7F062D424AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C11671B7909FA08A3259FE78CDDE4202 /* Build configuration list for PBXNativeTarget "FDStackView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB27479CF369A2902B2AA87DD6A36CB7 /* Debug */,
+				36F5EBA563994CD0425B619F4F652961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA20ECE39C89DAEC1DE9F8069226187F /* Build configuration list for PBXNativeTarget "UITableView+FDTemplateLayoutCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9FC215D890813A0B03806CC74108BA /* Debug */,
+				05F4B13FEB5E97DCDD0C825B19D8A4DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,15 @@
+PODS:
+  - FDStackView (1.0)
+  - UITableView+FDTemplateLayoutCell (1.5.beta)
+
+DEPENDENCIES:
+  - FDStackView (~> 1.0)
+  - UITableView+FDTemplateLayoutCell (~> 1.5.beta)
+
+SPEC CHECKSUMS:
+  FDStackView: 3a4bbe0ce9c35e974246a585168b9da8c32213f1
+  UITableView+FDTemplateLayoutCell: 02b508ab1cb4cea16a8c17ac83d2cd1fd72124f9
+
+PODFILE CHECKSUM: 9f8e4b9c97a982f9a6f7d8ae9cb815ed7a0f3436
+
+COCOAPODS: 1.1.1

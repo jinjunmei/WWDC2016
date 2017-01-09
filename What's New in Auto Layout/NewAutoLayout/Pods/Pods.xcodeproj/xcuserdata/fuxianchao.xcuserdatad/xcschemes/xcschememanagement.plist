@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>FDStackView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Pods-NewAutoLayout.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Pods-NewAutoLayoutTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-NewAutoLayoutUITests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>UITableView+FDTemplateLayoutCell.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0B37447DF6DBEDB6786E8B433CA61151</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>102D428D5075F9B4BF6469BEC619ED69</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A136E9301AABAA3FA856985C6A2BC21F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A3088FA6C9EC8F3B2890EBC458FBF697</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EBA97BA336EF8F5E99A6659FC6493230</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE4586ECAC6DBCAEA748557216AA8668</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
