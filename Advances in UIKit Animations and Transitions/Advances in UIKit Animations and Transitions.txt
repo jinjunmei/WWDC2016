@@ -1,0 +1,73 @@
+Advances in UIKit Animations and Transitions
+
+UIViewPropertyAnimator 可以称为属性动画器，是iOS10中新增的一个执行View动画的类
+1. 可中断性
+2. 可擦除
+3. 可反转性
+4. 丰富的动画时间控制功能
+
+1.我们首先添加要进行一些动画操作的view：
+self.testView = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+self.testView.backgroundColor = [UIColor redColor];
+[self.view addSubview:self.testView];
+
+2.接下来我们可以初始化属性动画器了：
+@property (strong, nonatomic) UIViewPropertyAnimator *viewProperty;   
+//初始化属性动画器
+self.viewProperty = [[UIViewPropertyAnimator alloc] initWithDuration:4.f curve:UIViewAnimationCurveLinear animations:^{
+    self.testView.frame = CGRectMake(200, 200, 200, 200);
+}];
+
+3. 动画启动
+[self.viewProperty startAnimation];
+
+4. 动画暂停
+[self.viewProperty pauseAnimation];
+
+5. 动画停止
+[self.viewProperty stopAnimation:true]; 
+stopAnimation:后跟了一个BOOL值，它的含义是 是否在动画执行结束后才停止动画。
+
+6. 动画继续
+UISpringTimingParameters *param = [[UISpringTimingParameters alloc] initWithDampingRatio:0.1];
+[self.viewProperty continueAnimationWithTimingParameters:param durationFactor:1];
+continueAnimationWithTimingParameters后面需要一个UITimingCurveProvider的参数，这个参数的含义就是接下来的动画，我们想要以什么样的形式执行下去
+withTimingParameters = nil时，以原来的 Timing 运行，这里以springTiming继续剩下的动画；动画的剩余运行时间为durationFactor * duration，durationFactor = 0时，运行时间依然为原来的duration
+
+7. 转场动画进度
+fractionComplete：0〜1
+
+注意：在动画结束时，viewProperty的animations变量会被置空，若想继续执行动画，需要重新对animations赋值。
+
+动画特效参数
+UICubicTimingParameters 包括EaseIn、EaseOut、EaseInOut等特效, 可自定义绘制贝塞尔曲线时间图。
+[[UICubicTimingParameters alloc] initWithControlPoint1:<#(CGPoint)#> controlPoint2:<#(CGPoint)#>]
+PS: http://cubic-bezier.com/
+
+UISpringTimingParameters 带向量的弹簧效果
+1. 以向量CGVector(dx: CGFloat, dy: CGFloat)为单位的初始速度，在 iOS 10 之前的弹簧动画 API 里的速度都是数值，在位移动画里方向是沿着起点到终点的直线方向，速度为向量意味着合成的初始速度可以不沿着这个方向；速度分量为负时，以 X 轴方向分量dx为例，表示与目标方向在 X 轴的分量相反，而非是沿着 X 轴反方向；
+2. 完全版本的弹簧动画：iOS 7 引入了简化的 Spring UIView Animation API，iOS 9 引入了无文档的完全版本的 Spring Core Animation API；而这两个版本的初始速度皆为数值，iOS 10 的所有弹簧动画的速度都是向量。
+
+问题：
+1. 反转后的弹簧动画停止时会crash
+
+<UIViewControllerTransitioningDelegate>是 iOS 7 新增的协议
+转场发生时，UIKit 将要求转场代理将提供转场动画的核心构件：动画控制器和交互控制器(可选的)；由我们实现。
+
+动画控制器(Animation Controller)：
+最重要的部分，负责添加视图以及执行动画；遵守<UIViewControllerAnimatedTransitioning>协议；由我们实现。
+
+交互控制器(Interaction Controller)：
+通过交互手段，通常是手势来驱动动画控制器实现的动画，使得用户能够控制整个过程；遵守<UIViewControllerInteractiveTransitioning>协议；系统已经打包好现成的类供我们使用。
+
+转场协议的枢纽 UIViewControllerContextTransitioning 定义了实现交互控制的核心方法，在系统支持的转场里，遵守该协议的对象由系统提供，所以实现交互转场非常得容易。在 iOS 10 里这个协议添加了pauseInteractiveTransition()，这个方法是在非交互与交互状态之间自由切换时缺失的一环。
+
+总结：
+1. 可以通过UIViewPropertyAnimator进行动画暂停，动画倒置
+2. 可以通过定义UIViewControllerContextTransitioning协议进行动画与交互的转换
+
+参考：
+http://www.jianshu.com/p/6ac70183631e
+http://www.jianshu.com/p/f6930eb60534
+https://github.com/seedante/iOS-Note/wiki/View-Controller-Transition-PartII#Chapter0
+http://www.cocoachina.com/ios/20160309/15605.html
